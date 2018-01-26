@@ -1,0 +1,3 @@
+to get psql command line and connect to tysql database
+psql -U ericricketts -d tysql
+

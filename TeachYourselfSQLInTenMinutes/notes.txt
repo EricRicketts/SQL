@@ -1,0 +1,11 @@
+problem solved with the format of the creating and populating of the databases:
+iconv -f utf-16 -t utf-8 create.txt > create.sql
+
+information on the file type can be obtained by:
+file <filename>
+
+after starting the servers for postgres and mysql - to get to command lines:
+
+psql postgres
+
+mysql -u root -p

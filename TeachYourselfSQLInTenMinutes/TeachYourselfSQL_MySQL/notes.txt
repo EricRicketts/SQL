@@ -1,0 +1,4 @@
+To run an sql file:
+mysql -u username -p database_name < file.sql
+to get to the mysql command line:
+mysql -u username (root for instance) -p
