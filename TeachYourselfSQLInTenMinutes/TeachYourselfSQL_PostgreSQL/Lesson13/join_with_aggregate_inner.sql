@@ -1,4 +1,4 @@
-SELECT C.cust_name, O.order_num
+SELECT C.cust_id, COUNT(order_num) AS num_ord
 FROM Customers AS C
 INNER JOIN Orders AS O ON C.cust_id = O.cust_id
-ORDER BY C.cust_name;
+GROUP BY C.cust_id;
